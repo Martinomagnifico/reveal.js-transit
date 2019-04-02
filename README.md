@@ -8,7 +8,7 @@ Sometimes you want effects, images, graphs etc to kick in only *after* a slide i
 It is likely that a future version of Reveal.js wil make this plugin obsolete :-)
 
 
-Here's a [demo](https://martinomagnifico.github.io/reveal.js-appearance/index.html) of a project that also uses this transit.js plugin.
+Here's a [demo](https://martinomagnifico.github.io/reveal.js-appearance/demo.html) of a project that also uses this transit.js plugin.
 
 
 Transit.js does multiple things:
