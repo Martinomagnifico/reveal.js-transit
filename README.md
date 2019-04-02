@@ -15,7 +15,7 @@ Transit.js does multiple things:
 * Emits an event "slidechangecomplete" after a slide has completed its transition. The current and past slides are still available as event.currentSlide and event.previousSlide
 * Emits an event "fragmentshowncomplete" after a fragment has completed its "shown" transition. The fragment is available as event.fragment.
 * Emits an event "fragmenthiddencomplete" after a fragment has completed its "hidden" transition. The fragment is available as event.fragment.
-* Adds a class "done" on slides and fragments that have completed 
+* Toggles a class "done" on slides and fragments depending on the transition state. 
 
 
 ## Installation
