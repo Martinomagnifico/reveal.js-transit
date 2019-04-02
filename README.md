@@ -12,9 +12,9 @@ Here's a [demo](https://martinomagnifico.github.io/reveal.js-appearance/demo.htm
 
 
 Transit.js does multiple things:
-* Emits an event "slidechangecomplete" after a slide has completed its transition. The current and past slides are still available as event.currentSlide and event.previousSlide
-* Emits an event "fragmentshowncomplete" after a fragment has completed its "shown" transition. The fragment is available as event.fragment.
-* Emits an event "fragmenthiddencomplete" after a fragment has completed its "hidden" transition. The fragment is available as event.fragment.
+* Emits an event "slidechangecomplete" after a slide has completed its transition. The event object keeps reference to the previous and current slide HTML nodes as event.currentSlide and event.previousSlide, just like the "slidechange" event.
+* Emits an event "fragmentshowncomplete" after a fragment has completed its "shown" transition. The fragment is available in the event object as event.fragment.
+* Emits an event "fragmenthiddencomplete" after a fragment has completed its "hidden" transition. The fragment is available in the event object as event.fragment.
 * Toggles a class "done" on slides and fragments depending on the transition state. 
 
 
