@@ -99,7 +99,10 @@ const Transit = window.Transit || (function () {
 		};
 
 		const waitForFadeOut = function (endevent) {
-			if (endevent.target.tagName == "SECTION" && endevent.propertyName == "transform") {
+			if (endevent.target.tagName == "SECTION" &&
+				((endevent.propertyName == "transform")
+				|| (endevent.propertyName == "opacity")) )
+			{
 				slideChanged();
 			}
 		};
