@@ -4,7 +4,7 @@
  * @author: Martijn De Jongh (Martino), martijn.de.jongh@gmail.com
  * https://github.com/Martinomagnifico
  *
- * Transit.js for Reveal.js 1.0.4
+ * Transit.js for Reveal.js 1.0.5
  *
  * @license 
  * MIT licensed
