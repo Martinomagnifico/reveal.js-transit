@@ -2,8 +2,7 @@
 A plugin for [Reveal.js](https://revealjs.com) that checks if slides and fragments are done transitioning.
 
 
-Sometimes you want effects, images, graphs etc to kick in only *after* a slide in Reveal.js has ended the slide transition. Reveal.js has no "slidechangecomplete" event (or other cool name), so this plugin does just that. 
-
+Sometimes you want effects, images, graphs etc to kick in only *after* a slide in Reveal.js has ended the slide transition. Reveal versions lower than 4 have no "slidetransitionend" event, so this plugin does just that. 
 
 It is likely that a future version of Reveal.js wil make this plugin obsolete :-)
 
