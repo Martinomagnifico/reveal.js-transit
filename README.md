@@ -1,6 +1,8 @@
 # reveal.js-transit
-A plugin for [Reveal.js](https://revealjs.com) that checks if slides and fragments are done transitioning.
 
+[![Version](https://img.shields.io/npm/v/reveal.js-transit)](#) [![Downloads](https://img.shields.io/npm/dt/reveal.js-transit)](https://github.com/Martinomagnifico/reveal.js-transit/archive/refs/heads/master.zip)
+
+A plugin for [Reveal.js](https://revealjs.com) that checks if slides and fragments are done transitioning.
 
 Sometimes you want effects, images, graphs etc to kick in only *after* a slide in Reveal.js has ended the slide transition. Reveal versions lower than 4 have no "slidetransitionend" event, so this plugin does just that. 
 
